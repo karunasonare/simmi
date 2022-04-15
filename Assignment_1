@@ -1,0 +1,151 @@
+<html>
+    <head>
+        <title>Welcome to our restaurant</title>
+        <style>
+            .block{
+                display: block;
+                width:auto;
+                height: 60px;
+                margin-top: 5px;
+                background-color: red;
+            }
+            #container{
+                text-align: right;
+            }
+            .seven{
+                margin-top: -500px;
+                margin-left: 300px;
+            }
+            #eight{
+                margin-top: -120px;
+                margin-left: 300px;
+            }
+            #ten{
+                margin-left: 550px;
+            }
+            #eleven{
+                margin-left: 600px;
+                margin-top: -40px;
+            }
+            #twelve{
+                margin-left: 650px;
+                margin-top: -40px;
+            }
+            #thirteen{
+                margin-left: 700px;
+                margin-top: -40px;
+            }
+            #fourteen{
+                margin-left: 750px;
+                margin-top: -40px;
+            }
+            #fifteen{
+                margin-left: 800px;
+                margin-top: -40px;
+            }
+            #sixteen{
+                margin-left: 850px;
+                margin-top: -40px;
+            }
+            #seventeen{
+                margin-left: 900px;
+                margin-top: -40px;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="container">
+            <span class="block">
+                <br>
+                <button id="one" type="submit">Log In</button>
+                <button id="one" type="submit">Creat an Account</button>
+            </span>
+        </div>
+        <h1 style="text-align: center";>Welcome to our restaurant</h1>
+        <p style="border-left: 6px black; height: 400px; position: absolute; left: 30%; margin-left: -4px; top: 60px;">
+            <h2>Filters</h2>
+            <p><h3>Select location</h3></p>
+            <select id="select">
+                <option value="Select" placeholder="Select">Select</option>
+                <option value="Delhi">Delhi</option>
+                <option value="Mumbai">Mumbai</option>
+                <option value="Agra">Agra</option>
+                <option value="Hydrabad">Hydrabad</option>
+                <option value="Bhopal">Bhopal</option>
+                <option value="Kanpur">Kanpur</option>
+                <option value="Lucknow">Lucknow</option>
+            </select>
+            <h3>Cuisine</h3>
+            <input type="checkbox">North Indian</input>
+            <br>
+            <input type="checkbox">South Indian</input>
+            <br>
+            <input type="checkbox">Chineese</input>
+            <br>
+            <input type="checkbox">Fast Food</input>
+            <br>
+            <input type="checkbox">Street Food</input>
+            <h3>Cost for two</h3>
+            <input type="radio">Less than ₹ 500</input>
+            <br>
+            <input type="radio">₹ 500 to ₹ 1000</input>
+            <br>
+            <input type="radio">₹ 1000 to ₹ 1500</input>
+            <br>
+            <input type="radio">₹ 1500 to ₹ 2000</input>
+            <br>
+            <input type="radio">₹ 2000 +</input>
+            <h3>Sort</h3>
+            <input type="radio">Price low to high</input>
+            <br>
+            <input type="radio">Price high to low</input>
+        </p>
+        <br>
+        <div class="seven">
+        <img src="C:\Users\ASUS\Desktop\download (1).jpg" width="200px";>
+        <h2><div id=eight>The Big Chill Cakery</div></h2>
+        <p style="margin-left: 300px";> FORT<br><br>Shop 1,Plot D, Samruddhi Complex, Chincholi</p>
+        <h4>CUISINES : Bakery</h4>
+        <h4>COST FOR TWO : ₹ 700</h4>
+        <hr>
+        <img src="C:\Users\ASUS\Desktop\download (1).jpg" width="200px";>
+        <h2><div id=eight>The Big Chill Cakery</div></h2>
+        <p style="margin-left: 300px";> FORT<br><br>Shop 1,Plot D, Samruddhi Complex, Chincholi</p>
+        <h4>CUISINES : Bakery</h4>
+        <h4>COST FOR TWO : ₹ 700</h4>
+        <hr>
+        </div>
+        <div id="ten">
+            <br>
+            <button type="submit">#</button>
+        </div>
+        <div id="eleven">
+            <br>
+            <button type="submit">1</button>
+        </div>
+        <div id="twelve">
+            <br>
+            <button type="submit">2</button>
+        </div>
+        <div id="thirteen">
+            <br>
+            <button type="submit">3</button>
+        </div>
+        <div id="fourteen">
+            <br>
+            <button type="submit">4</button>
+        </div>
+        <div id="fifteen">
+            <br>
+            <button type="submit">5</button>
+        </div>
+        <div id="sixteen">
+            <br>
+            <button type="submit">6</button>
+        </div>
+        <div id="seventeen">
+            <br>
+            <button type="submit">#</button>
+        </div>
+    </body>
+</html>
